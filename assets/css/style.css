@@ -15,4 +15,87 @@
     border: 3px solid blue;
 
 }
+.quiz-box h1 {
+    
+    font-size: 2rem;
+    text-align: center;
+    color: antiquewhite;
+    padding: 1rem 0;
+    width: 100%;
+    margin-bottom: 3rem;
+    
 
+}
+
+.quiz-head {
+    display: flex;
+    justify-content: space-between;
+}
+ .quiz-head #quiz-prog {
+     color: black;
+     font-size: 1.5rem;
+     font-weight: 600;
+     
+ }
+ .quiz-head #timer {
+     font-size: 1rem;
+     font-weight: 700;
+     
+     padding: 3px;
+     margin: 1px;
+     color: aliceblue;
+     
+     
+ }
+ .quiz-box #questions {
+     font-size: 1.2rem;
+     font-weight: 650;
+     color: darkblue;
+     border: 1px solid;
+ }
+ .buttons {
+     margin: 2rem 0 4rem;
+
+
+ }
+ .btn {
+     text-align: left;
+     background-color: antiquewhite;
+     width: 100%;
+     font-size: 2rem;
+     border: 1px solid blue;
+     border-radius: 4px;
+     margin: 7px 0 ;
+     padding: 1.5rem;
+     outline: none;
+ }
+
+ .btn:hover {
+     
+     background-color: darkblue;
+ }
+ .btn:active {
+     background-color: blueviolet;
+ }
+ #score {
+     color: antiquewhite;
+     text-align: center;
+     font-size: 2rem;
+     margin-bottom: 4rem;
+ }
+ .quiz-loop {
+     text-align: center;
+     margin: 0 auto;
+
+ }
+
+ .quiz-loop a {
+     font-size: 1.4rem;
+     font-weight: 700;
+     color: aliceblue;
+     text-decoration: none;
+     padding: 1rem;
+     border-radius: 4px;
+     transition: all .4s;
+ }
+ 
