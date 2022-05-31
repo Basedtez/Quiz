@@ -31,13 +31,13 @@
     display: flex;
     justify-content: space-between;
 }
- .quiz-head #quiz-prog {
+ .quiz-head #progress {
      color: black;
      font-size: 1.5rem;
      font-weight: 600;
      
  }
- .quiz-head #timer {
+ .quiz-head #count-down {
      font-size: 1rem;
      font-weight: 700;
      
@@ -47,7 +47,7 @@
      
      
  }
- .quiz-box #questions {
+ .quiz-box #question {
      font-size: 1.2rem;
      font-weight: 650;
      color: darkblue;
